@@ -1,0 +1,168 @@
+---
+#-------------------------------
+# General Site Settings
+
+title: RL
+logo:
+author: rayeliu
+description: Engineering student at Cornell University
+email: raye233@gmail.com
+phone: +1 347-439-8489
+address: 151 Dryden Rd, Ithaca, NY 14853
+copyright: Copyright &copy; 2021 Designed by [Raye Liu](https://github.com/Raye2333) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+
+menu:
+  - { name: About, link: "/about" }
+  - { name: Project, link: "/blog" }
+  - { name: Contact, link: "/contact" }
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Hi! I’m Raye <br> ORIE @ Cornell
+
+social:
+  - { icon: "ti-facebook", link: "https://www.facebook.com/raye.liu.96/" }
+  - { icon: "ti-instagram", link: "https://www.instagram.com/zl2852018/" }
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb: I'm a rising senior majoring in ORIE at Cornell University College of Engineering, with a minor in CS. My undergraduate research concentration is big data and machine learning in the field of healthcare resource allocation and population segmentation, under the instruction of Professor Madeleine Udell of Cornell ORIE department.
+
+blurb-btn-link: "/about"
+blurb-btn-name: know more
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title: "Research and Plan"
+    icon: "assets/images/icons/plan.png"
+
+  - title: "Data Processing & Data Mining"
+    icon: "assets/images/icons/design.png"
+
+  - title: "Algorithm Developmemt & Refine"
+    icon: "assets/images/icons/print.png"
+
+# My Team Section
+team:
+  - title: "Kathy (Ja Young) Byun"
+    designation: "Research Partner"
+  - title: "Jody Zhu"
+    designation: "Project Partner"
+  - title: "Xavier Lim"
+    designation: "Project Partner"
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+  - { name: Data Analysis, color: "#fdb157", value: "90%" }
+  - { name: OO Programming, color: "#9473e6", value: "60%" }
+  - { name: Web Design, color: "#bdecf6", value: "20%" }
+  - { name: Software Engineering, color: "#ffbcaa", value: "20%" }
+
+#-------------------------------
+# Exprerience Section
+
+experience-title: Experience
+experience:
+  - {
+      name: Data Analyst Intern,
+      icon: "icon-1.png",
+      date: "May 2019 - August 2019",
+      organization: "Unionpay",
+    }
+  - {
+      name: Undergraduate Researcher,
+      icon: "icon-2.png",
+      date: "Feburary 2019 - Now",
+      organization: "Cornell ORIE",
+    }
+  - {
+      name: Teaching Assistant,
+      icon: "icon-3.png",
+      date: "March 2020 - Now",
+      organization: "Cornell Engineering",
+    }
+
+#-------------------------------
+# Education Section
+
+education-title: Education
+education:
+  - {
+      name: Bachelor of Science,
+      date: "2022",
+      organization: "Cornell University",
+    }
+  - {
+      name: Secondary School Certificat,
+      date: "2018",
+      organization: "Tianjin Foreign Languages School",
+    }
+
+#-------------------------------
+# Services Section
+
+services-title: Courses
+services:
+  - {
+      name: Optimization,
+      icon: ti-palette,
+      description: "Formulation of linear programming problems and solutions by the simplex method. Related topics such as sensitivity analysis, duality, and network programming. Applications include such models as resource allocation and production planning. Introduction to interior-point methods for linear programming.",
+      active: ,# Add true to select section
+    }
+  - {
+      name: Big Data Technology <br> & Messy Big Data,
+      icon: ti-vector,
+      description: "unix shell, regular expressions, version control, data structures and algorithms, working with databases, data analysis using Python and related libraries, parallel computing, basic finite-precision arithmetic, an overview of standard machine learning and optimization algorithms",
+      active: true, # Add true to select section
+    }
+  - {
+      name: Algorithm Analysis,
+      icon: ti-panel,
+      description: "Develops techniques used in the design and analysis of algorithms, with an emphasis on problems arising in computing applications. Example applications are drawn from systems and networks, artificial intelligence, computer vision, data mining, and computational biology. ",
+      active: ,# Add true to select section
+    }
+
+client-slider-items:
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
+
+# Contact Section
+
+contact-title: Contact Info
+contact-email: raye233@gmail.com
